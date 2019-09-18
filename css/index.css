@@ -347,9 +347,12 @@ nav a{
 	margin-right:-10%;
 }
 
-/**Media Query for Services Page in UI-III Stretch**/
 
-/* @media screen and (max-width:500px){
+/**Media Query for Services Page in UI-III Stretch**/
+/* *Stretch Goal Services Responsive I* */
+/* todo @media screen and (min-width:800px){} <--Added */
+
+@media screen and (max-width:500px and 800px){
 	nav {
 		flex-direction:column;
 		margin-top:10%;
@@ -357,13 +360,13 @@ nav a{
 }
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:500px and 800px){
 	.logo {
 		margin-left:-120%;
 }
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:500px and 800px){
 	.infobox {
 		flex-direction:row;
 		flex-wrap:no-wrap;
@@ -372,7 +375,8 @@ nav a{
 }
 }
 
-@media screen and (max-width:500px){
+
+@media screen and (max-width:500px and 800px){
 	.information  {
 		flex-direction:column;
 		margin:1%;
@@ -380,14 +384,14 @@ nav a{
 }
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:500px and 800px){
 	.bottomimg {
 		margin:1%;
 		widows: 98%;
 		margin-top:50%;
 		margin-left:-95%;
 }
-} */
+}
 
 /* *Media Queries for Responsive I MVP* */
 /* ? max-width 800px & max-width 500px ?*/
@@ -497,4 +501,4 @@ nav a{
     }
 
 /* *Stretch Goal Services from min-width* */
-/* todo @media screen and (min-width:500px){} */
+/* todo @media screen and (min-width:800px){} */
