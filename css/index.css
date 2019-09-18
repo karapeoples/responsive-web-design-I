@@ -1,3 +1,398 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	font-family: 'Open Sans Condensed', sans-serif;
+    
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+* {
+	box-sizing: border-box;
+  }
+  
+  html,
+  body {
+	height: 100%;
+	font-family: 'Open Sans Condensed', sans-serif;
+	
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+	font-family: 'Saira Extra Condensed', sans-serif;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+  }
+  
+  /* *Your code starts here!* */
+  
+  header {
+	display:flex;
+	position: sticky;
+	left: 0px;
+	top: 0px;
+	z-index: 1;
+	
+  }
+  
+nav{
+	display:flex;
+	justify-content:space-around;
+	width:75%;
+}
+nav a{
+	border-radius: 10px;
+	padding:1%;
+	text-align: center;
+	color: black;
+	text-decoration: none;
+	margin-bottom: 10px;
+	background-color: lightsteelblue;
+}
+
+	
+  a:hover {
+	background: steelblue;
+	color: honeydew;
+  }
+
+
+  
+  .logo {
+	margin: 1%;
+	margin-left: 85%;
+	width: 150px;
+  }
+
+  .main-title{
+	  display:flex;
+  }
+  
+  .title {
+	margin-left: 15%;
+	margin-top: 1%;
+	margin-bottom:-15%;
+	margin-right: 15%;
+	width: 25%;
+	font-size: 100px;
+  }
+  
+  .headerimg {
+	margin: 5%;
+	width: 30%;
+  }
+  
+  button {
+	display:flex;
+	margin-top:30%;
+	margin-left: 20%;
+	padding: 10px;
+	font-size: 20px;
+	background: lightsteelblue;
+	color: black;
+	border-radius: 10px;
+	font-family: 'Saira Extra Condensed', sans-serif;
+  }
+  button:hover {
+	background: steelblue;
+	color: honeydew;
+  }
+  
+  .top-content {
+	display: flex;
+	border-top: 1px solid black;
+	margin: 1%;
+	width: 98%;
+  }
+  
+  .top-info {
+	margin: 1%;
+	width: 47%;
+  }
+  .top-info h4{
+	font-size:15px;
+	margin:1%;
+	font-weight:bold;
+  }
+  
+  .middle-img {
+	width: 98%;
+	margin: 1%;
+  }
+  
+  .bottom-content {
+	display:flex;
+	margin: 1%;
+	width: 98%;
+	border-bottom: 1px solid black;
+  }
+  
+  .bottom-info {
+	margin: 1%;
+	max-width: 30%;
+  }
+  
+  .bottom-info h4{
+	font-size:15px;
+	margin:1%;
+	font-weight:bold;
+  }
+  #contact h4 {
+	margin: 1%;
+  }
+  
+  address {
+	margin: 1%;
+  }
+  
+  footer {
+	display:flex;
+	justify-content: center;
+  }
+
+  /**Services Page CSS**/
+
+  .services-header-img{
+	  margin:1%;
+	  width:98%;
+  }
+
+  .servinfo h2{
+	  font-size:25px;
+	  margin:1%;
+	  font-weight:bold;
+  }
+
+  .servinfo p{
+	  margin:1%;
+  }
+
+.middleboxes{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	width:98%;
+	margin:1%;
+	border-bottom: 1px solid black;
+	border-top:1px solid black;
+}
+
+.infobox{
+	display:flex;
+	flex-direction:column;
+	flex-wrap:wrap;
+	border: 1px solid black;
+	width:40%;
+	margin:5%;	
+	background:#f0f0f0;
+}
+
+.infobox button{
+	display:flex;
+	margin: 0;
+	margin-bottom: 5%;
+	width:25%;
+	justify-content:center;
+	background: lightsteelblue;
+	color: black;
+	font-family: 'Saira Extra Condensed', sans-serif;
+  }
+  button:hover {
+	background: steelblue;
+	color: honeydew;
+  }
+
+.infobox p{
+	margin:2%;
+	letter-spacing: 2.0px;
+	
+	
+}
+
+.infobox h4{
+	margin:2%;
+	font-weight:bold;
+	
+}
+
+.lastcontent{
+	display:flex;
+	width:98%;
+	margin:1%;
+}
+
+.lastcontent h2{
+	font-size:25px;
+	  margin:1%;
+	  font-weight:bold;
+}
+
+.lastcontent p{
+	margin:1%;
+	letter-spacing: 2.0px;
+}
+
+.lastcontent li{
+	margin:2%;
+	letter-spacing: 2.0px;
+}
+
+/**(Stretch) About Page CSS**/
+
+.ceo{
+	display:flex;
+	width:98%;
+	margin:1%;
+	border:1px solid black
+}
+
+.ceoInfo{
+	width: 75%;
+	margin:1%;
+	margin-left:-10%;
+}
+.ceoInfo h2{
+	font-weight:bold;
+}
+
+.boss-img{
+	width: 75%;
+	margin: 1%;
+}
+
+.company{
+	display:flex;
+	width:98%;
+	margin:1%;
+	border:1px solid black
+}
+
+.companyInfo{
+	width: 75%;
+	margin:1%;
+}
+
+.companyInfo h2{
+	font-weight:bold;
+}
+
+.company-img{
+	width: 75%;
+	margin: 1%;
+	margin-right:-10%;
+}
+
+/**Media Query**/
+
+@media screen and (max-width:500px){
+	nav {
+		flex-direction:column;
+		margin-top:10%;
+		margin-left:25%;
+}
+}
+
+@media screen and (max-width:500px){
+	.logo {
+		margin-left:-120%;
+
+}
+}
+
+@media screen and (max-width:500px){
+	.infobox {
+		flex-direction:row;
+		flex-wrap:no-wrap;
+		width:98%;
+		margin:1%;
+
+}
+}
+
+
+
+@media screen and (max-width:500px){
+	.information  {
+		flex-direction:column;
+		margin:1%;
+		width:98%;
+		
+
+}
+}
+
+@media screen and (max-width:500px){
+	.bottomimg {
+		margin:1%;
+		widows: 98%;
+		margin-top:50%;
+		margin-left:-95%;
+
+}
+}
 
