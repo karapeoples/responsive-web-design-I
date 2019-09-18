@@ -470,7 +470,31 @@ nav a{
 }
 
 @media screen and (max-width:500px){
-    .top-info {
-        width:100%;
+    .top-content{
+        display:inline-block;
+        
     }
-}
+    }
+
+    @media screen and (max-width:500px){
+        .top-info{
+            width:100%;
+            margin:5% 0;
+        }
+    }
+
+    @media screen and (max-width:500px){
+        .bottom-content{
+            display:inline-block;
+        }
+    }
+
+    @media screen and (max-width:500px){
+        .bottom-info{
+            width:100%;
+            margin:5% 0;
+        }
+    }
+
+/* *Stretch Goal Services from min-width* */
+/* todo @media screen and (min-width:500px){} */
