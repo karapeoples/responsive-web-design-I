@@ -194,7 +194,7 @@ nav a{
   
   .bottom-info {
 	margin: 1%;
-	max-width: 30%;
+	width: 30%;
   }
   
   .bottom-info h4{
@@ -347,9 +347,9 @@ nav a{
 	margin-right:-10%;
 }
 
-/**Media Query**/
+/**Media Query for Services Page in UI-III Stretch**/
 
-@media screen and (max-width:500px){
+/* @media screen and (max-width:500px){
 	nav {
 		flex-direction:column;
 		margin-top:10%;
@@ -360,7 +360,6 @@ nav a{
 @media screen and (max-width:500px){
 	.logo {
 		margin-left:-120%;
-
 }
 }
 
@@ -370,19 +369,14 @@ nav a{
 		flex-wrap:no-wrap;
 		width:98%;
 		margin:1%;
-
 }
 }
-
-
 
 @media screen and (max-width:500px){
 	.information  {
 		flex-direction:column;
 		margin:1%;
 		width:98%;
-		
-
 }
 }
 
@@ -392,7 +386,91 @@ nav a{
 		widows: 98%;
 		margin-top:50%;
 		margin-left:-95%;
+}
+} */
 
+/* *Media Queries for Responsive I MVP* */
+/* ? max-width 800px & max-width 500px ?*/
+
+/* todo @media screen and (max-width:800px){}
+   todo @media screen and (max-width:500px){}  */
+
+   /* *TABLET VIEW* */
+   @media screen and (max-width:800px){
+       nav {
+           width:100%;
+           margin-left:10%;
+           margin-right:-10%;
+           margin-top:7%;
+       }
+   }
+
+   @media screen and (max-width:800px){
+       .logo{
+           margin-left:-150%;
+           width:200px;
+       }
+   }
+
+   @media screen and (max-width:800px){
+       .headerimg{
+           display:none;
+       }
+   }
+
+   @media screen and (max-width:800px){
+       .title{
+           font-size:750%;
+           text-align:center;
+           display:flex;
+           flex-direction:column;
+           width:250%;  
+   }
+}
+
+@media screen and (max-width:800px){
+    button{
+        margin-bottom:35%;
+        margin-top:5%;
+        justify-content:center;
+        width:25%;
+        margin-left:40%;
+    }
+}
+
+/* *MOBILE VIEW* */
+@media screen and (max-width:500px){
+    nav {
+		flex-direction:column;
+		margin-top:10%;
+		margin-left:35%;
 }
 }
 
+@media screen and (max-width:500px){
+    .logo {
+		margin-left:-75%;
+}
+}
+
+@media screen and (max-width:500px){
+    .title{
+        font-size:500%;
+        display:flex;
+        flex-direction:column;
+    }
+}
+
+@media screen and (max-width:500px){
+    button{
+        width:45%;
+        margin:25%;
+        margin-top:-1%;
+    }
+}
+
+@media screen and (max-width:500px){
+    .top-info {
+        width:100%;
+    }
+}
