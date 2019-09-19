@@ -358,33 +358,20 @@ nav a{
 		margin-top:10%;
 		margin-left:25%;
 }
-}
-
-@media screen and (max-width:500px and 800px){
 	.logo {
 		margin-left:-120%;
-}
-}
-
-@media screen and (max-width:500px and 800px){
+    }
 	.infobox {
 		flex-direction:row;
 		flex-wrap:no-wrap;
 		width:98%;
 		margin:1%;
 }
-}
-
-
-@media screen and (max-width:500px and 800px){
 	.information  {
 		flex-direction:column;
 		margin:1%;
 		width:98%;
 }
-}
-
-@media screen and (max-width:500px and 800px){
 	.bottomimg {
 		margin:1%;
 		widows: 98%;
@@ -407,22 +394,16 @@ nav a{
            margin-right:-10%;
            margin-top:7%;
        }
-   }
-
-   @media screen and (max-width:800px){
+   
        .logo{
            margin-left:-150%;
            width:200px;
        }
-   }
-
-   @media screen and (max-width:800px){
+   
        .headerimg{
            display:none;
        }
-   }
-
-   @media screen and (max-width:800px){
+   
        .title{
            font-size:750%;
            text-align:center;
@@ -430,9 +411,6 @@ nav a{
            flex-direction:column;
            width:250%;  
    }
-}
-
-@media screen and (max-width:800px){
     button{
         margin-bottom:35%;
         margin-top:5%;
@@ -447,58 +425,49 @@ nav a{
     nav {
 		flex-direction:column;
 		margin-top:10%;
-		margin-left:35%;
+        margin-left:35%;
+        
+        
 }
+nav a
+{
+    border-top:1px solid navy;
+    border-bottom:1px solid navy;
 }
 
-@media screen and (max-width:500px){
     .logo {
 		margin-left:-75%;
 }
-}
 
-@media screen and (max-width:500px){
     .title{
         font-size:500%;
         display:flex;
         flex-direction:column;
     }
-}
 
-@media screen and (max-width:500px){
     button{
         width:45%;
         margin:25%;
         margin-top:-1%;
     }
-}
 
-@media screen and (max-width:500px){
     .top-content{
         display:inline-block;
         
     }
-    }
-
-    @media screen and (max-width:500px){
+  
         .top-info{
             width:100%;
             margin:5% 0;
         }
-    }
-
-    @media screen and (max-width:500px){
+  
         .bottom-content{
             display:inline-block;
         }
-    }
-
-    @media screen and (max-width:500px){
+   
         .bottom-info{
             width:100%;
             margin:5% 0;
         }
     }
 
-/* *Stretch Goal Services from min-width* */
-/* todo @media screen and (min-width:800px){} */
