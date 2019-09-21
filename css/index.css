@@ -378,7 +378,21 @@ nav a{
 		margin-top:50%;
 		margin-left:-95%;
 }
+	.infobox button{
+		width:50%;
+	}
 }
+ @media screen and (max-width:500px){
+	 .infobox{
+		 display: flex;
+		 width:98%;
+	 }
+	 .bottomimg{
+		 display:none;
+	 }
+ }
+
+
 
 /* *Media Queries for Responsive I MVP* */
 /* ? max-width 800px & max-width 500px ?*/
